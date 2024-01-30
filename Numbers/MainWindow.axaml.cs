@@ -13,26 +13,19 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
-        
     }
-
-    private void InitializeComponent()
+    public void ButtonClickedYes(object sender, RoutedEventArgs args)
     {
         
     }
-
-   
-    public void ButtonClicked(object source, RoutedEventArgs args)
+    public void ButtonClickedNo(object sender, RoutedEventArgs args)
     {
-        Debug.WriteLine("cpok");
-        
-        
-        
-        
-        
-        
-        
-        
+        Random random = new Random();
+        int p = 9;
+        int l = random.Next(100000000, 999999999);
+      //  int s = random.Next(0, 9);
+
+      TextBlockNum.Text = Convert.ToString(p) + Convert.ToString(l); //+ Convert.ToString(s);
     }
 }
 

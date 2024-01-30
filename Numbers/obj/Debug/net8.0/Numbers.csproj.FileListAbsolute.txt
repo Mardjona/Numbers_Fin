@@ -129,3 +129,4 @@
 /Users/admin/RiderProjects/Numbers/Numbers/obj/Debug/net8.0/Numbers.csproj.CopyComplete
 /Users/admin/RiderProjects/Numbers/Numbers/obj/Debug/net8.0/Numbers.genruntimeconfig.cache
 /Users/admin/RiderProjects/Numbers/Numbers/obj/Debug/net8.0/ref/Numbers.dll
+/Users/admin/RiderProjects/Numbers/Numbers/obj/Debug/net8.0/Numbers.sourcelink.json
